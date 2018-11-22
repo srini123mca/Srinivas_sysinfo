@@ -1,0 +1,27 @@
+git remote set-url origin <url> : to set the tracking relationship with the remote
+git remote show origin : to show the tracking relation ship with the remote
+git show <commitid> : show the details of the commit
+git push -u origin <branch name> : to push the branch into remote repo
+git checkout -b <branch name> to create and get into that branch
+git branch -d <branch name> : to remove the branch 
+git fetch -p ( prune ) : it will check and dead branches locally and remove them completely 
+
+just create a branch on remote and then switch to that in locally 
+
+--- git fetch 
+---- git checkout <branch > thats it
+
+to remove the remote branch - 
+  1.git branch -d <branch name>
+  2.git push origin : <branch name>
+git pull --rebase
+.orig files ?
+git tag - to list the tags
+
+git tag <tag name> 
+git tag -a <tag nam> -m "<messaga>" <commit id >
+git push origin <tag name>
+git push --tag
+git tag -f <tag_name> <commit id > ( to move the tag to a different commit/ref ) and then git push --force origin
+
+git remote add upstream <url>
