@@ -25,9 +25,3 @@ git push --tag
 git tag -f <tag_name> <commit id > ( to move the tag to a different commit/ref ) and then git push --force origin
 
 git remote add upstream <url>
-
-===================================
-
-Thanks for create new branch 
-
-++++++++++++
